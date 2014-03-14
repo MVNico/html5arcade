@@ -1,0 +1,48 @@
+body
+{
+	background-image: url(../images/bg.png);
+	background-repeat:repeat;
+}
+#highscore
+{
+	display:none;
+	z-index:100;
+	position: absolute;
+	height:450px;
+	width:450px;
+	top:50%;
+	left:50%;
+	margin-top:-225px;
+	margin-left:-225px;
+	background-color:#F5F5F5;
+}
+#content
+{
+	position: absolute;
+	height:500px;
+	width:450px;
+	top:50%;
+	left:50%;
+	margin-top:-250px;
+	margin-left:-225px;
+}
+#start
+{
+	background-color:green;
+	height:25px;
+}
+#start p
+{
+	text-align:center;
+}
+#score_points
+{
+	background-color:#F5F5F5;
+	height:25px;
+	width:100px;
+	float:left;
+}
+#points
+{
+	float:right;
+}
